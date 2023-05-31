@@ -28,7 +28,7 @@ class HesaplamaSinifi {
                 else-> println("Hatalı veri girdiniz!")
             }
         }else if (yolculuk == 2){
-            println("Toplam tutar: $yuzdeYirmi TL")
+            println("Toplam tutar: ${yuzdeYirmi+yuzdeYirmi} TL")
         }else{
             println("Hatalı veri girdiniz!")
         }
